@@ -10,5 +10,5 @@ locations:
         username: nqtjkmnw
         password: RH3fWHJsX7zvQEYIGX_D921HINlHNY59
         hostname: flora.db.elephantsql.com 
-        db_name: swapipostgres
+        db_name: nqtjkmnw
         port: 5432

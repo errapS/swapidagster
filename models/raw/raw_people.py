@@ -1,21 +1,8 @@
-import pandas as pd
-import requests
-import time
 
-def model(dbt, fal):
+from raw_model import raw_model
 
-    response = requests.get("https://swapi.dev/api/people/")
-    data = response.json()
-    if not data['next']:
-        return pd.DataFrame(data['results'])
+if __name__ == '__main__':
+    raw_model('people')
 
-    results = data['results']
-    while True:
-        response = requests.get(data['next'])
-        data = response.json()
-        results.extend(data['results'])
-        if not data['next']:
-            break
-        time.sleep(.5)
+
     
-    return pd.DataFrame(results)

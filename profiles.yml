@@ -7,10 +7,7 @@ swapi:
       user: nqtjkmnw
       password: RH3fWHJsX7zvQEYIGX_D921HINlHNY59
       port: 5432
-      dbname: swapipostgres
+      dbname: nqtjkmnw
       schema: public
       threads: 1
       connect_timeout: 10
-    dev-fal:
-      type: fal
-      db_profile: dev

@@ -1,0 +1,6 @@
+locations:
+- build:
+    directory: ./swapidagster
+  code_source:
+    module_name: swapidagster.definitions
+  location_name: swapidagster

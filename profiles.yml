@@ -3,9 +3,9 @@ swapi:
   outputs:
     dev:
       type: postgres
-      host: localhost
-      user: user
-      password: assword
+      host: flora.db.elephantsql.com 
+      user: nqtjkmnw
+      password: RH3fWHJsX7zvQEYIGX_D921HINlHNY59
       port: 5432
       dbname: swapipostgres
       schema: public

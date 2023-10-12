@@ -4,3 +4,11 @@ locations:
   code_source:
     module_name: swapidagster.definitions
   location_name: swapidagster
+  storage:
+    postgres:
+      postgres_db:
+        username: nqtjkmnw
+        password: RH3fWHJsX7zvQEYIGX_D921HINlHNY59
+        hostname: flora.db.elephantsql.com 
+        db_name: swapipostgres
+        port: 5432
